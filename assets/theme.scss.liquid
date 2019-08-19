@@ -120,6 +120,8 @@
     $name: nth($breakpoint, 1);
     $declaration: nth($breakpoint, 2);
 
+// todo- linter error
+
     @if $media-query == $name and $declaration {
       $breakpoint-found: true;
 
@@ -333,6 +335,8 @@ $grid-breakpoint-has-widths: ($small, $medium-up);
 $grid-breakpoint-has-push: ($small, $medium-up);
 
 /*================ Color Variables ================*/
+
+// todo- linter error 
 
 // Text colors
 $color-text: {{ settings.color_text }};

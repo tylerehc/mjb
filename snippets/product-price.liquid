@@ -4,8 +4,8 @@
   {%- assign price = variant.price -%}
   {%- assign available = variant.available -%}
 {% else %}
-  {%- assign compare_at_price = 1999 -%}
-  {%- assign price = 1999 -%}
+  {%- assign compare_at_price = product.compare_at_price -%}
+  {%- assign price = product.price -%}
   {%- assign available = true -%}
 {% endif %}
 
