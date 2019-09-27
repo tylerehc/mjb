@@ -1,12 +1,12 @@
 {
   "current": {
-    "color_text": "#348370",
+    "color_text": "#4ed9cf",
     "color_body_text": "#6d6d6d",
-    "color_sale_text": "#00ffc3",
-    "color_button": "#00ffc3",
+    "color_sale_text": "#4ed9cf",
+    "color_button": "#4ed9cf",
     "color_button_text": "#ffffff",
-    "color_small_button_text_border": "#00ffc3",
-    "color_text_field_text": "#00ffc3",
+    "color_small_button_text_border": "#4ed9cf",
+    "color_text_field_text": "#4ed9cf",
     "color_text_field_border": "#909090",
     "color_text_field": "#ffffff",
     "color_image_overlay_text": "#ffffff",
@@ -31,7 +31,7 @@
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/mj-logo_a889d9e5-7143-4cc9-ad99-f157c0c548b4.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -51,8 +51,8 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/mj_logo_1_9593f9d0-af35-40e3-87d3-cc594bf7c128.png",
-          "logo_max_width": 100,
+          "logo": "shopify:\/\/shop_images\/mj-logo_a889d9e5-7143-4cc9-ad99-f157c0c548b4.png",
+          "logo_max_width": 125,
           "main_linklist": "main-menu",
           "message": false,
           "home_page_only": true,
@@ -71,9 +71,9 @@
           "hero_size": "x-large",
           "text_size": "large",
           "title": "Whose Are Those?",
-          "text": "<p>Inimate Items, Made To Order<\/p>",
+          "text": "<p>Intimate Items, Made To Order<\/p>",
           "button_label": "Discover Bespoke",
-          "button_link": "shopify:\/\/collections"
+          "button_link": "shopify:\/\/collections\/all"
         }
       },
       "slideshow": {
@@ -82,10 +82,10 @@
           "slideshow-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MJB_2014_Editorial-417_00f76eb6-cfea-48e9-92ae-bfca32f0c425.jpg",
+              "image": "shopify:\/\/shop_images\/homepage-2.png",
               "alignment": "center center",
               "slide_title": "Born in L.A.",
-              "subheading": "Since 1989",
+              "subheading": "Inspired in Paris",
               "button_label": "",
               "button_link": ""
             }
@@ -95,7 +95,7 @@
           "slideshow-0"
         ],
         "settings": {
-          "slideshow_height": "medium",
+          "slideshow_height": "small",
           "text_size": "medium",
           "text_alignment": "center center",
           "show_overlay": true,
@@ -108,10 +108,10 @@
         "settings": {
           "title": "L.A. to Champs-Élysées",
           "collection": "frontpage",
-          "grid": 3,
+          "grid": 4,
           "rows": 1,
-          "show_vendor": true,
-          "show_view_all": true
+          "show_vendor": false,
+          "show_view_all": false
         }
       },
       "product-template": {
@@ -130,30 +130,12 @@
         "type": "collection-template",
         "settings": {
           "layout": "grid",
-          "grid": 2,
-          "rows": 2,
+          "grid": 3,
+          "rows": 8,
           "show_collection_image": true,
           "show_vendor": false,
           "sort_enable": true,
           "tags_enable": true
-        }
-      },
-      "1492033877875": {
-        "type": "quotes",
-        "blocks": {
-          "1492033877875-0": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
-            }
-          }
-        },
-        "block_order": [
-          "1492033877875-0"
-        ],
-        "settings": {
-          "title": "Testimonials"
         }
       },
       "1492033924902": {
@@ -165,7 +147,7 @@
               "title": "High-Standard Essentials",
               "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet sagittis velit id finibus. Morbi fermentum leo, vitae tristique quam laoreet non. Aliquam gravida, nisl placerat tristique, ligula pretium nisl, non fringilla ipsum sapien nec sem.&nbsp;<\/p>",
               "width": "100%",
-              "alignment": "center",
+              "alignment": "top-middle",
               "align_text": "center"
             }
           }
@@ -180,32 +162,32 @@
       "1492096252560": {
         "type": "collection-list",
         "blocks": {
-          "1492096252560-0": {
+          "1564438194108": {
             "type": "featured_collection",
             "settings": {
-              "collection": "drop-your-panties"
+              "collection": "panties"
             }
           },
-          "1492096252560-1": {
+          "1564438823348": {
             "type": "featured_collection",
             "settings": {
-              "collection": "malibu"
+              "collection": "bodysuits"
             }
           },
-          "1492096252560-2": {
+          "1564438830467": {
             "type": "featured_collection",
             "settings": {
-              "collection": "paris"
+              "collection": "bras"
             }
           }
         },
         "block_order": [
-          "1492096252560-0",
-          "1492096252560-1",
-          "1492096252560-2"
+          "1564438194108",
+          "1564438823348",
+          "1564438830467"
         ],
         "settings": {
-          "title": "Collection list",
+          "title": "",
           "grid": 3
         }
       },
@@ -280,8 +262,7 @@
       "featured-collections",
       "slideshow",
       "1492033924902",
-      "1492096252560",
-      "1492033877875"
+      "1492096252560"
     ]
   },
   "presets": {
