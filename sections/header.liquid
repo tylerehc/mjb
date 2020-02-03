@@ -86,12 +86,14 @@
                    data-sizes="auto"
                    alt="{{ logo_alt | escape }}"
                    style="max-width: {{ section.settings.logo_max_width }}px">
+              <p style="color: #D9C04F">Mary Jo Bruno</p>
               <noscript>
                 {% capture image_size %}{{ section.settings.logo_max_width | escape }}x{% endcapture %}
                 <img src="{{ section.settings.logo | img_url: image_size }}"
                      srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
                      alt="{{ section.settings.logo.alt | default: shop.name }}"
                      style="max-width: {{ section.settings.logo_max_width }}px;">
+                     
               </noscript>
             </a>
           {% else %}

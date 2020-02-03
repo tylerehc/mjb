@@ -66,13 +66,13 @@
         "type": "hero",
         "settings": {
           "image": "shopify:\/\/shop_images\/mjb_home_5.png",
-          "alignment": "center",
+          "alignment": "top",
           "hero_layout": "full_width",
           "hero_size": "x-large",
           "text_size": "large",
           "title": "Whose Are Those?",
           "text": "<p>Intimate Items, Made To Order<\/p>",
-          "button_label": "Discover Bespoke",
+          "button_label": "Discover Bespoke Comfort",
           "button_link": "shopify:\/\/collections\/all"
         }
       },
